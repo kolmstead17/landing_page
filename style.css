@@ -1,3 +1,16 @@
-.header {
-    display: flex;
+.top-third {
+    background-color: #1f2937;
+}
+
+#hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: roboto;
+}
+
+#hero-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: Roboto;
 }
