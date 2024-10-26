@@ -1,5 +1,7 @@
 body{
     background-color: #1f2937;
+    max-width: 960px;
+    margin: auto;
 }
 
 #hero-main-text {
@@ -7,6 +9,11 @@ body{
     font-size: 48px;
     font-weight: 900;
     font-family: roboto;
+}
+
+#panda {
+    width: 300px;
+    height: auto;
 }
 
 #hero-subtext {
@@ -24,10 +31,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
-.hero-links {
+.hero .hero-links {
     color: #e5e7eb;
     font-size: 18px;
-    margin: 10px;
+}
+
+.main-left {
+    float: left;
+}
+
+.main-right {
+    float: right;
 }
