@@ -1,4 +1,4 @@
-.top-third {
+body{
     background-color: #1f2937;
 }
 
@@ -13,4 +13,21 @@
     color: #e5e7eb;
     font-size: 18px;
     font-family: Roboto;
+}
+
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-links {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px;
 }
