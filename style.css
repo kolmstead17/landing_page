@@ -28,8 +28,8 @@ body{
 }
 
 #panda {
-    /* width: 50%; */
-    /* height: auto; */
+    width: 500px;
+    height: auto;
     /* object-fit: contain; */
 }
 
@@ -55,5 +55,5 @@ body{
 
 .hero-main-right {
     flex: 50%;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
