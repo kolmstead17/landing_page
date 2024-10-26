@@ -1,10 +1,26 @@
 body{
-    background-color: #1f2937;
-    max-width: 960px;
+    background-color: #1f2937; 
+    /* max-width: 960px; */
+    max-width: 80%;
     margin: auto;
 }
 
-#hero-main-text {
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu .links {
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.hero-main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
@@ -12,11 +28,12 @@ body{
 }
 
 #panda {
-    width: 300px;
-    height: auto;
+    /* width: 50%; */
+    /* height: auto; */
+    /* object-fit: contain; */
 }
 
-#hero-subtext {
+.hero-subtext {
     color: #e5e7eb;
     font-size: 18px;
     font-family: Roboto;
@@ -27,22 +44,16 @@ body{
     font-size: 24px;
 }
 
-.hero {
+.hero-main {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    margin: 100px;
 }
 
-.hero .hero-links {
-    color: #e5e7eb;
-    font-size: 18px;
+.hero-main-left {
+    flex: 50%;
 }
 
-.main-left {
-    float: left;
-}
-
-.main-right {
-    float: right;
+.hero-main-right {
+    flex: 50%;
+    object-fit: contain;
 }
